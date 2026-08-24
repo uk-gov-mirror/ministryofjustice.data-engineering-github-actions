@@ -1,0 +1,14 @@
+---
+name: Commit Message Check
+on:
+  workflow_call:
+jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+    name: Conventional Commitlint
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Conventional Commitlint
+        uses: opensource-nepal/commitlint@b475c5486b51a090474c55a8dd2eafc84bcd84ba #v1.13.3
