@@ -44,7 +44,7 @@ def open_prs(
         {
             "text": {
                 "type": "mrkdwn",
-                "text": f":alert: :wave: Hi there! <!channel> Today's Open PRs in {repo}:",
+                "text": f":alert: :wave: Hi there! Today's Open PRs in {repo}:",
             },
             "type": "section",
         },
